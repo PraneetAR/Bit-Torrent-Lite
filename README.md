@@ -77,6 +77,3 @@ cargo run -- request <file_name>
    - `Chunk`: Requests a specific 256KB segment of a file.
 5. **Transfer**: If the peer has the requested chunk, they send the raw bytes back. The requester appends these bytes to a local file until the entire file is assembled.
 
-## 📝 License
-
-This project is created for educational purposes.
